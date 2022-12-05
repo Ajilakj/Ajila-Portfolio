@@ -1,7 +1,7 @@
 import React from 'react';
 const styles = {
   navBar: {
-    background: 'green',
+    // background: 'green',
     display:'flex',
     padding:'20px',
     flexDirection:'row',
