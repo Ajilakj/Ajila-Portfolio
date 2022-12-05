@@ -21,7 +21,7 @@ export default function About() {
     <div id="about-me">
       <h1>About Me</h1>
       <div style={styles.aboutMe} >
-        <img style={styles.img} src="./assets/images/avtar.png" alt="My avtar picture"/>
+        <img style={styles.img} src="../../../../images/avtar.png" alt="My avtar picture"/>
         <p style={styles.p} >
           Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
           Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed

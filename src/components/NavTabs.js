@@ -1,10 +1,25 @@
 import React from 'react';
-
+const styles = {
+  navBar: {
+    background: 'green',
+    display:'flex',
+    padding:'20px',
+    flexDirection:'row',
+    justifyContent: 'flex-end',
+  },
+  li:{
+    listStyle:'none',
+    padding:'20px'
+  },
+  a:{
+    textDecoration:'none'
+  }
+}
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
+    <ul style={styles.navBar} className="nav nav-tabs">
+      <li style={styles.li} className="nav-item">
+        <a style={styles.a}
           href="#home"
           onClick={() => handlePageChange('Home')}
 
@@ -13,8 +28,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           Home
         </a>
       </li>
-      <li className="nav-item">
-        <a
+      <li style={styles.li} className="nav-item">
+        <a style={styles.a}
           href="#about"
           onClick={() => handlePageChange('About')}
           
@@ -23,8 +38,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
-        <a
+      <li style={styles.li} className="nav-item">
+        <a style={styles.a}
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
@@ -32,8 +47,8 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
-        <a
+      <li style={styles.li} className="nav-item">
+        <a style={styles.a}
           href="#contact"
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
@@ -41,15 +56,15 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      {/* <li className="nav-item">
-        <a
+      <li style={styles.li} className="nav-item">
+        <a style={styles.a}
           href="#resume"
           onClick={() => handlePageChange('Resume')}
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
           Resume
         </a>
-      </li> */}
+      </li>
     </ul>
   );
 }
