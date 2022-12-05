@@ -20,16 +20,6 @@ function NavTabs({ currentPage, handlePageChange }) {
     <ul style={styles.navBar} className="nav nav-tabs">
       <li style={styles.li} className="nav-item">
         <a style={styles.a}
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
-      <li style={styles.li} className="nav-item">
-        <a style={styles.a}
           href="#about"
           onClick={() => handlePageChange('About')}
           
