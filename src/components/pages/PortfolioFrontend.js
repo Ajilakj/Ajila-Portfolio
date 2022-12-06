@@ -16,7 +16,7 @@ export default function PortfolioFrontend() {
   return (
     <div>
        <section id="my-works">
-               <h2>My Works</h2>
+               <h1>My Works</h1>
                <div class="card-container">
                     <fieldset style={styles.fieldset}>
                          <legend>Front End Projects </legend>

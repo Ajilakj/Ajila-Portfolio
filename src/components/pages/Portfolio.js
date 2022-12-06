@@ -1,5 +1,11 @@
 import React from 'react';
+import almanac from '../../images/myDailyAlmanac.png'
+import sport from '../../images/SportSpot.png'
+
 const styles = {
+container: {
+     margin:'10%',
+},
 cardContainer:{
      display: 'flex',
      flexDirection:'row',
@@ -14,6 +20,11 @@ cards:{
   padding:'25px',
   margin:'25px',
 },
+img:{
+     width:'250px',
+     height: '250px',
+     padding: '15px',
+},
 spanColor:{
      color:'maroon'
 }
@@ -21,18 +32,18 @@ spanColor:{
 export default function Portfolio({ currentPage, handlePageChange }) {
   return (
     <div>
-       <section id="my-works">
-               <h2>My Works</h2>
+       <section style={styles.container}>
+               <h1>My Works</h1>
                <div style={styles.cardContainer}>
                     <div style={styles.cards}>
                          <h2><span data-descr="It is a website to get posts about different sports">Sport spot</span></h2>
                          <p>Technologies used: Handlebars, Express, Node, Sequelize, npm, ESLint, MySQL, JavaScript, CSS</p>
-                         <a href="https://the-sport-spot-team-1.herokuapp.com/" target="_blank" rel="noreferrer"><img src="./assets/images/SportSpot.png"alt="an image of 4 sports cards and a navigation bar"/></a>
+                         <a href="https://the-sport-spot-team-1.herokuapp.com/" target="_blank" rel="noreferrer"><img src={sport} style={styles.img} alt="an image of 4 sports cards and a navigation bar"/></a>
                     </div>
-                    <div style={styles.cards} class="first-item">
+                    <div style={styles.cards}>
                          <h2><span data-descr="It is a website to get content about various topics and save our own notes">My Daily Almanac</span></h2>
                          <p>Technologies used: API, JavaScript, CSS, BULMA, HTML</p>
-                         <a href="https://mikeyboxx.github.io/my-daily-almanac/" target="_blank" rel="noreferrer"><img src="./assets/images/myDailyAlmanac.png"alt="an image of contents based on user selection and a drop up menu with dates"/></a>
+                         <a href="https://mikeyboxx.github.io/my-daily-almanac/" target="_blank" rel="noreferrer"><img src={almanac} style={styles.img} alt="an image of contents based on user selection and a drop up menu with dates"/></a>
                     </div>
                     <a href="#PortfolioFrontend"
                           className={currentPage === 'PortfolioFrontend'} onClick={() => handlePageChange('PortfolioFrontend')}>
