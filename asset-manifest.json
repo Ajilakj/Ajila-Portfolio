@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/Ajila-Portfolio/static/js/main.f8949a20.js",
+    "pdf.worker.js": "/Ajila-Portfolio/e7bb9c7d0e9e47f6ba34cfb9524227d4.js",
+    "static/media/SportSpot.png": "/Ajila-Portfolio/static/media/SportSpot.631dca1e0ce15676bf07.png",
+    "static/media/myDailyAlmanac.png": "/Ajila-Portfolio/static/media/myDailyAlmanac.b32777423895004b3d2e.png",
+    "static/media/Resume-Portfolio (1).pdf": "/Ajila-Portfolio/static/media/Resume-Portfolio (1).6cae9dafa34f5f76798e.pdf",
+    "static/media/avtar.png": "/Ajila-Portfolio/static/media/avtar.c63a3860138c3f2e3f69.png",
+    "index.html": "/Ajila-Portfolio/index.html",
+    "main.f8949a20.js.map": "/Ajila-Portfolio/static/js/main.f8949a20.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f8949a20.js"
+  ]
+}
