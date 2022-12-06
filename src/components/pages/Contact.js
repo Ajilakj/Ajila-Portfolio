@@ -7,6 +7,7 @@ container: {
 function Form() {
 const [name, setName] = useState('');
 const [email, setEmail] = useState(''); 
+const [msg, setMsg] = useState(''); 
 const handleInputChange = (e) => {
   // Getting the value and name of the input which triggered the change
   const { target } = e;
@@ -20,6 +21,8 @@ const handleInputChange = (e) => {
     setEmail(inputValue);
   } else if (inputType === 'name') {
     setName(inputValue);
+  } else if (inputType === 'msg') {
+    setMsg(inputValue);
   }
 };
   return (
@@ -38,7 +41,14 @@ const handleInputChange = (e) => {
           name="email"
           onChange={handleInputChange}
           type="email"
-          placeholder="Enter your"
+          placeholder="Enter your email"
+        />
+        <input
+          value={msg}
+          name="msg"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Send me a message"
         />
         <button type="button" onClick={handleInputChange}>
           Submit
