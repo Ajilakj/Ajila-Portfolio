@@ -3,11 +3,18 @@ import NavTabs from './NavTabs';
 import Home from './pages/Resume';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
+import PortfolioFrontend from './pages/PortfolioFrontend';
 import Contact from './pages/Contact';
-// import Resume from './pages/Resume';
+
+const styles = {
+  container: {
+    background: '#EDF1FF',
+    fontFamily:'Arial, Helvetica, sans-serif'
+  }
+}
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
 
   const renderPage = () => {
     if (currentPage === 'Resume') {
@@ -22,13 +29,17 @@ export default function PortfolioContainer() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
+    if (currentPage === 'PortfolioFrontend') {
+      alert("testing");
+      return <PortfolioFrontend />;
+    }
     // return <Resume />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div style={styles.container}>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>

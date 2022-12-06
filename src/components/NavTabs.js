@@ -1,7 +1,7 @@
 import React from 'react';
 const styles = {
   navBar: {
-    // background: 'green',
+    background: '#004B8D',
     display:'flex',
     padding:'20px',
     flexDirection:'row',
@@ -12,7 +12,8 @@ const styles = {
     padding:'20px'
   },
   a:{
-    textDecoration:'none'
+    textDecoration:'none',
+    color:'beige',
   }
 }
 function NavTabs({ currentPage, handlePageChange }) {
