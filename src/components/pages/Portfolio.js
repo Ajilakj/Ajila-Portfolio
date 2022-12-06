@@ -45,13 +45,13 @@ export default function Portfolio({ currentPage, handlePageChange }) {
                          <p>Technologies used: API, JavaScript, CSS, BULMA, HTML</p>
                          <a href="https://mikeyboxx.github.io/my-daily-almanac/" target="_blank" rel="noreferrer"><img src={almanac} style={styles.img} alt="an image of contents based on user selection and a drop up menu with dates"/></a>
                     </div>
-                    <a href="#PortfolioFrontend"
-                          className={currentPage === 'PortfolioFrontend'} onClick={() => handlePageChange('PortfolioFrontend')}>
+                    {/* <a href="#PortfolioFrontend" */}
+                          {/* className={currentPage === 'PortfolioFrontend'} onClick={() => handlePageChange('PortfolioFrontend')}> */}
                          <div style={styles.cards}>
                               <h2><span data-descr="Frontend Apps">Front End Applications</span></h2>
                               <p>Technologies used: API, JavaScript, jQuery, CSS, HTML</p>
                          </div>      
-                    </a>
+                    {/* </a> */}
                     <div style={styles.cards}>
                          <h2><span data-descr="Back End Projects">Back End Projects</span></h2>
                          <p>Technologies used: MySQL, ORM (Sequelize), Insomnia Core, Express, JSON, Node, JavaScript</p>

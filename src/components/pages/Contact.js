@@ -35,21 +35,21 @@ const handleInputChange = (e) => {
           onChange={handleInputChange}
           type="text"
           placeholder="Enter your name"
-        />
+        /><br/>
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="Enter your email"
-        />
+        /><br/>
         <input
           value={msg}
           name="msg"
           onChange={handleInputChange}
           type="text"
           placeholder="Send me a message"
-        />
+        /><br/>
         <button type="button" onClick={handleInputChange}>
           Submit
         </button>
