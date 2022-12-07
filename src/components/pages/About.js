@@ -11,18 +11,22 @@ const styles = {
     flexDirection:'row',
     justifyContent: 'space-between',
   },
+  h1:{
+    textAlign: 'center',
+  },
   p:{
     width:'45%'
   },
   img:{
-    width:'35%'
+    width:'35%',
+    borderRadius:'50%'
   }
 };
 
 export default function About() {
   return (
     <div style={styles.container}>
-      <h1>About Me</h1>
+      <h1 style={styles.h1}>About Me</h1>
       <div style={styles.aboutMe} >
         <img src={profile} alt="My avtar picture"style={styles.img} />
         <p style={styles.p} >

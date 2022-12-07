@@ -6,6 +6,9 @@ const styles = {
 container: {
      margin:'10%',
 },
+h1:{
+     textAlign: 'center',
+},
 cardContainer:{
      display: 'flex',
      flexDirection:'row',
@@ -16,7 +19,6 @@ cards:{
   border: '2px dotted maroon',
   boxShadow: '10px 10px gray',
   borderRadius: '10px',
-  textAlign: 'center',
   padding:'25px',
   margin:'25px',
 },
@@ -32,8 +34,8 @@ spanColor:{
 export default function Portfolio({ currentPage, handlePageChange }) {
   return (
     <div>
+     <h1 style={styles.h1}>My Works</h1>
        <section style={styles.container}>
-               <h1>My Works</h1>
                <div style={styles.cardContainer}>
                     <div style={styles.cards}>
                          <h2><span data-descr="It is a website to get posts about different sports">Sport spot</span></h2>
@@ -45,18 +47,20 @@ export default function Portfolio({ currentPage, handlePageChange }) {
                          <p>Technologies used: API, JavaScript, CSS, BULMA, HTML</p>
                          <a href="https://mikeyboxx.github.io/my-daily-almanac/" target="_blank" rel="noreferrer"><img src={almanac} style={styles.img} alt="an image of contents based on user selection and a drop up menu with dates"/></a>
                     </div>
-                    {/* <a href="#PortfolioFrontend" */}
+                    <a href="https://ajilakj.github.io/Ajila-s-Portfolio/#frontend" target="_blank" rel="noreferrer">
                           {/* className={currentPage === 'PortfolioFrontend'} onClick={() => handlePageChange('PortfolioFrontend')}> */}
                          <div style={styles.cards}>
                               <h2><span data-descr="Frontend Apps">Front End Projects</span></h2>
                               <p>Technologies used: API, JavaScript, jQuery, CSS, HTML</p>
                          </div>      
-                    {/* </a> */}
+                    </a>
+                    <a href="https://ajilakj.github.io/Ajila-s-Portfolio/#backend" target="_blank" rel="noreferrer">
                     <div style={styles.cards}>
                          <h2><span data-descr="Back End Projects">Back End Projects</span></h2>
                          <p>Technologies used: MySQL, ORM (Sequelize), Insomnia Core, Express, JSON, Node, JavaScript</p>
                          {/* <a href="https://drive.google.com/file/d/1oy56ihCyHF0vsD6TgXlGO8SZUGfNxBld/edit" target="_blank" rel="noreferrer"><img src="./assets/images/readme.png"alt="an image of a sample readme fenerated using this app"/></a> */}
                     </div>
+                    </a>
                </div>
           </section>
     </div>
