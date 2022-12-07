@@ -48,7 +48,7 @@ export default function Portfolio({ currentPage, handlePageChange }) {
                     {/* <a href="#PortfolioFrontend" */}
                           {/* className={currentPage === 'PortfolioFrontend'} onClick={() => handlePageChange('PortfolioFrontend')}> */}
                          <div style={styles.cards}>
-                              <h2><span data-descr="Frontend Apps">Front End Applications</span></h2>
+                              <h2><span data-descr="Frontend Apps">Front End Projects</span></h2>
                               <p>Technologies used: API, JavaScript, jQuery, CSS, HTML</p>
                          </div>      
                     {/* </a> */}
