@@ -6,14 +6,6 @@ import Portfolio from './pages/Portfolio';
 import PortfolioFrontend from './pages/PortfolioFrontend';
 import Contact from './pages/Contact';
 
-const styles = {
-  container: {
-    margin:'0px',
-    background: '#EDF1FF',
-    fontFamily:'Arial, Helvetica, sans-serif'
-  }
-}
-
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
@@ -40,7 +32,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div style={styles.container}>
+    <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
