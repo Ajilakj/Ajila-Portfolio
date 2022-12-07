@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 
 const styles = {
   container: {
+    margin:'0px',
     background: '#EDF1FF',
     fontFamily:'Arial, Helvetica, sans-serif'
   }
