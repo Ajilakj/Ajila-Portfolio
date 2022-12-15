@@ -16,7 +16,6 @@ const styles = {
 const App = () =>{
 return(
           <div style={styles.container}>
-               {/* <NavTabs/>; */}
                <PortfolioContainer />
                <Footer/>
           </div> 
