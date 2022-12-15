@@ -1,11 +1,11 @@
 import React from 'react';
-import almanac from '../../images/myDailyAlmanac.png'
-import weatherDashboard from '../../images/weatherDashboard.png'
-import NoteTaker from '../../images/NoteTaker.png'
-import TeamProfileGenerator from '../../images/TeamProfileGenerator.png'
-import jate from '../../images/jate.png'
-import virtualescaperoom from '../../images/virtualescaperoom.png'
-// import sport from '../../images/SportSpot.png'
+import almanac from '../images/myDailyAlmanac.png'
+import weatherDashboard from '../images/weatherDashboard.png'
+import NoteTaker from '../images/NoteTaker.png'
+import TeamProfileGenerator from '../images/TeamProfileGenerator.png'
+import jate from '../images/jate.png'
+import virtualescaperoom from '../images/virtualescaperoom.png'
+// import sport from '../images/SportSpot.png'
 
 const styles = {
 container: {
@@ -46,7 +46,7 @@ export default function Portfolio({ currentPage, handlePageChange }) {
                          <legend>FULLSTACK APPLICATIONS</legend>
                          <div style={styles.cards}>
                                    <h2><span data-descr="It is a game app">Virtual Escape Room </span></h2>
-                                   <p>Technologies used:</p><p><span class="orange">React </span><span class="orange">MongoDB </span><span class="orange">Express </span> <span class="blue">JSON </span> <span class="red">Node </span><span class="green">JavaScript </span></p>
+                                   <p>Technologies used:</p><p><span class="orange">React </span><span class="orange">MongoDB </span><span class="orange">Express </span> <span class="blue">JWT </span> <span class="red">Node </span><span class="green">JavaScript </span></p>
                                    <a href=" https://virtual-escape-room-mikeyboxx.herokuapp.com/" target="_blank" rel="noreferrer"><img src={virtualescaperoom} style={styles.img} alt="an image of the virtual escape room game"/></a>
                               </div>
                               <div style={styles.cards}>

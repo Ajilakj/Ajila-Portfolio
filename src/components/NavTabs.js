@@ -1,7 +1,15 @@
 import React from 'react';
 const styles = {
-  navBar: {
+  navBarContainer:{
+    padding:'10px',
     background: '#004B8D',
+    color:'beige',
+    display: 'flex',
+    flexDirection:'row',
+    justifyContent: 'space-between',
+    flexWrap: 'wrap',
+},
+  navBar: {
     display:'flex',
     padding:'20px',
     flexDirection:'row',
@@ -18,6 +26,9 @@ const styles = {
 }
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <>
+    <div style={styles.navBarContainer}>
+    <h1>Ajila's Portfolio</h1>
     <ul style={styles.navBar} className="nav nav-tabs">
       <li style={styles.li} className="nav-item">
         <a style={styles.a}
@@ -26,7 +37,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          About Me
         </a>
       </li>
       <li style={styles.li} className="nav-item">
@@ -57,6 +68,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
+    </>
   );
 }
 

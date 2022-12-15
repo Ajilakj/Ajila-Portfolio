@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../../images/Ajila.JPG'
+import profile from '../images/Ajila.JPG'
 
 const styles = {
   container: {
