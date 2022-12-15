@@ -186,11 +186,12 @@ Mar 2002,  Calicut, Kerala, India
     </td>
     <td>
     (Java, Oracle, VB, C, Foxpro, Computer Graphics, DBMS, OOP, etc)
-Bachelor of Science (Mathematics)
+
     </td>
   </tr>
   <tr>
     <td>
+    Bachelor of Science (Mathematics)
     Providence Women’s College  Mar 2000,  Calicut, India 
     </td>
     <td>
