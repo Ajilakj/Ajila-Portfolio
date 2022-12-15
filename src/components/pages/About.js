@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../../images/avtar.png'
+import profile from '../../images/Ajila.JPG'
 
 const styles = {
   container: {
@@ -15,7 +15,10 @@ const styles = {
     textAlign: 'center',
   },
   p:{
-    width:'45%'
+    width:'45%',
+    fontSize:'26px'
+    // padding:'10px',
+    // margin:'10px'
   },
   img:{
     width:'35%',
@@ -28,16 +31,11 @@ export default function About() {
     <div style={styles.container}>
       <h1 style={styles.h1}>About Me</h1>
       <div style={styles.aboutMe} >
-        <img src={profile} alt="My avtar picture"style={styles.img} />
+        <img src={profile} alt="My profile picture"style={styles.img} />
         <p style={styles.p} >
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
+            <b>Hi, I am Ajila</b> <br/>
+            I graduated Fullstack coding bootcamp from Columbia Engineering.<br/>
+             As a fullstack developer I am familiar with React, Express, MongoDB, Node .................. This portfoilio will express you some of my works which I am really proud of.
         </p>
       </div>
     </div>
