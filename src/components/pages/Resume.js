@@ -111,27 +111,21 @@ export default function Resume() {
       Knowledge in using Bootstrap, Bulma and CSS3 media queries for developing Responsive web design to support various screen sizes.  
       </li>
       <li>
-      Experience with analyzing the Document Object Model (DOM) Layout, DOM Functions and JavaScript functions. 
+        Experience with analyzing the Document Object Model (DOM) Layout, DOM Functions and JavaScript functions. 
       </li>
       <li>
-      Familiar in web Accessibility standard implementation to make websites accessible and inclusive for all audiences.
+        Familiar in web Accessibility standard implementation to make websites accessible and inclusive for all audiences.
       </li>
       <li>
-
-      Knowledge in implementing SEO practices to make the websites pages rank high and searchable for various  Search Engines 
+        Knowledge in implementing SEO practices to make the websites pages rank high and searchable for various  Search Engines 
       </li>
       <li>
-      Familiar in optimizing websites for better performance using tools like Lighthouse, Chrome Developer tool etc.
+        Familiar in optimizing websites for better performance using tools like Lighthouse, Chrome Developer tool etc.
       </li>
       <li>
-
-      Knowledge in working in AGILE based development environment 
+        Knowledge in working in AGILE based development environment 
       </li>
     </ul>
-
-
-
-
 
    <h2>Experience</h2> 
 
@@ -196,7 +190,7 @@ Mar 2002,  Calicut, Kerala, India
     </td>
     <td>
       
- It is a 3 year bachelor degree course
+ It is a 3 year bachelor degree course in Mathematics
     </td>
   </tr>
 </table>
