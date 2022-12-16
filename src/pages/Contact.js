@@ -1,21 +1,14 @@
 import React, { useState } from 'react';
-const styles = {
-container: {
-  margin:'10%',
-},
-}
+import './style.css';
 function Form() {
 const [name, setName] = useState('');
 const [email, setEmail] = useState(''); 
 const [msg, setMsg] = useState(''); 
 const handleInputChange = (e) => {
-  // Getting the value and name of the input which triggered the change
+
   const { target } = e;
   const inputType = target.name;
   const inputValue = target.value;
-
-  // Based on the input type, we set the state of either email, username, and password
-  // TODO: Add an else statement to the end that will set the password to the value of 'inputValue'
 
   if (inputType === 'email') {
     setEmail(inputValue);
@@ -26,7 +19,7 @@ const handleInputChange = (e) => {
   }
 };
   return (
-    <div style={styles.container}>
+    <div id="contact">
     <h1>Contact Me</h1>
     <form className="form">
         <input

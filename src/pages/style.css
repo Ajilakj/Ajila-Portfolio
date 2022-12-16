@@ -1,0 +1,63 @@
+table, th,td{
+     border:1px solid black;
+}
+
+#resume, #about, #contact, #portfolio {
+     margin:10%;
+}
+
+h1{
+     text-align: center;
+}
+
+#aboutMe {
+     display:flex;
+     padding:20px;
+     flex-direction:row;
+     justify-content:space-between;
+}
+
+#aboutMe img{
+     width:35%;
+     border-radius:50%;
+}
+
+#aboutMe p{
+     width:45%;
+     font-size:26px;
+}
+
+.cardContainer{
+     display: flex;
+     flex-direction:row;
+     flex-wrap: wrap;
+}
+
+.cards{
+     width:325px;
+     border: 2px dotted maroon;
+     box-shadow: 10px 10px gray;
+     border-radius: 10px;
+     padding:25px;
+     margin:25px;
+}
+
+#portfolio img{
+     width:250px;
+     height: 250px;
+     padding: 15px;
+}
+
+/* footer {
+     background: #004B8D;
+     display:flex;
+     padding:20px;
+     flex-direction:row;
+     justify-content: space-around;
+} */
+/* document:{
+     display:flex;
+     width:20px;
+     flexDirection:row;
+     justifyContent: space-between;
+   }; */

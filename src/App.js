@@ -1,5 +1,4 @@
 import React from "react";
-import NavTabs from "./components/NavTabs";
 import Footer from "./components/Footer";
 import PortfolioContainer from "./components/PortfolioContainer";
 
@@ -12,7 +11,6 @@ const styles = {
      }
    }
    
-
 const App = () =>{
 return(
           <div style={styles.container}>
