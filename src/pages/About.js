@@ -8,9 +8,9 @@ export default function About() {
       <div id="aboutMe">
         <img src={profile} alt="My profile picture"/>
         <p>
-            <b>Hi, I am Ajila</b> <br/>
-            I graduated Fullstack coding bootcamp from Columbia Engineering.<br/>
-             As a fullstack developer I am familiar with React, Express, MongoDB, Node .................. This portfoilio will express you some of my works which I am really proud of.
+            <b>Hi, My name is Ajila.</b> <br/>
+              I am a Fullstack coding bootcamp gradute from Columbia Engineering.<br/>
+             As a fullstack developer I am familiar with the technologies like React, Express, MongoDB, Node, JS, .................. This portfoilio will express some of my works which I am really proud of.
         </p>
       </div>
     </div>
