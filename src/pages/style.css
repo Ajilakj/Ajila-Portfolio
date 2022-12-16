@@ -31,23 +31,38 @@ h1{
      display: flex;
      flex-direction:row;
      flex-wrap: wrap;
+     flex-grow: 1;
 }
 
 .cards{
-     width:325px;
+     width:25vw;
      border: 2px dotted maroon;
      box-shadow: 10px 10px gray;
      border-radius: 10px;
      padding:25px;
-     margin:25px;
+     margin:25px auto;
 }
-
+.cards a{
+     color:beige;
+     text-decoration: none;
+     margin: 20px;
+     border-radius: 20px;
+}
 #portfolio img{
      width:250px;
      height: 250px;
      padding: 15px;
 }
 
+input{
+     padding:10px;
+     margin:10px
+}
+
+.git, .app{
+     background-color: blue;
+     padding: 10px;
+}
 /* footer {
      background: #004B8D;
      display:flex;
