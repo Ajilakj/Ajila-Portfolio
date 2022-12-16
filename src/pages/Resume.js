@@ -140,12 +140,12 @@ export default function Resume() {
     <td>
       Maharshi Dayanand University (2005- 2007,  Rohtak, India)
       (Software Engineering, Software testing, Artificial intelligence, c++, etc )
-      A Level 
-      Computer Science
     </td>
   </tr>
   <tr>
     <td>
+      A Level 
+      Computer Science
       Department of Electronics and Accreditation of Computer Courses (DOEACC Mar 2003,  Kerala, India)
     </td>
     <td>
