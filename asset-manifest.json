@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Ajila-Portfolio/static/js/main.cfe49659.js",
+    "main.js": "/Ajila-Portfolio/static/js/main.d547ab13.js",
     "static/media/myDailyAlmanac.png": "/Ajila-Portfolio/static/media/myDailyAlmanac.b32777423895004b3d2e.png",
     "static/media/Ajila.JPG": "/Ajila-Portfolio/static/media/Ajila.e3aea0ea2b704788802f.JPG",
     "static/media/virtualescaperoom.png": "/Ajila-Portfolio/static/media/virtualescaperoom.243107e5ff1feb1d34e6.png",
@@ -9,9 +9,9 @@
     "static/media/NoteTaker.png": "/Ajila-Portfolio/static/media/NoteTaker.4392393aa457eb35793a.png",
     "static/media/jate.png": "/Ajila-Portfolio/static/media/jate.5d3823bdf9ac72aae49c.png",
     "index.html": "/Ajila-Portfolio/index.html",
-    "main.cfe49659.js.map": "/Ajila-Portfolio/static/js/main.cfe49659.js.map"
+    "main.d547ab13.js.map": "/Ajila-Portfolio/static/js/main.d547ab13.js.map"
   },
   "entrypoints": [
-    "static/js/main.cfe49659.js"
+    "static/js/main.d547ab13.js"
   ]
 }
