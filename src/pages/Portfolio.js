@@ -18,7 +18,7 @@ export default function Portfolio({ currentPage, handlePageChange }) {
                          <legend>FULLSTACK APPLICATIONS</legend>
                               <div class="cards">
                                    <a href="https://virtual-escape-room-mikeyboxx.herokuapp.com/" target="_blank" class="app" rel="noreferrer">Deployed App</a>
-                                   <a  href=" https://github.com/mikeyboxx/virtual-escape-room" target="_blank" class="git" rel="noreferrer">Github</a>
+                                   <a  href=" https://github.com/Ajilakj/virtual-escape-room" target="_blank" class="git" rel="noreferrer">Github</a>
                                    <h2><span data-descr="It is a game app">Virtual Escape Room </span></h2>
                                    <p>Technologies used:</p><p><span class="orange">React </span><span class="orange">MongoDB </span><span class="orange">Express </span> <span class="blue">JWT </span> <span class="red">Node </span><span class="green">JavaScript </span></p>
                                    <img src={virtualescaperoom} alt="an image of the virtual escape room game"/>
@@ -28,7 +28,7 @@ export default function Portfolio({ currentPage, handlePageChange }) {
                               <legend>FRONTEND APPLICATIONS</legend>
                               <div class="cards">
                                    <a href="https://mikeyboxx.github.io/my-daily-almanac/" target="_blank" class="app" rel="noreferrer">Deployed App</a>
-                                   <a  href="https://github.com/mikeyboxx/my-daily-almanac" target="_blank" class="git" rel="noreferrer">Github</a>
+                                   <a  href="https://github.com/Ajilakj/my-daily-almanac" target="_blank" class="git" rel="noreferrer">Github</a>
                                    <h2><span data-descr="It is a website to get content about various topics and save our own notes">My Daily Almanac </span></h2>
                                    <p>Technologies used: API, JavaScript, CSS, BULMA, HTML</p>
                                    <img src={almanac} alt="an image of contents based on user selection and a drop up menu with dates"/>
