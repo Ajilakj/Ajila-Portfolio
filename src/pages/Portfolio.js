@@ -10,7 +10,7 @@ import './style.css'
 
 export default function Portfolio({ currentPage, handlePageChange }) {
   return (
-    <div>
+    <main>
      <h1>My Works</h1>
        <section id="portfolio">
                <div >
@@ -73,6 +73,6 @@ export default function Portfolio({ currentPage, handlePageChange }) {
                    
                </div>
           </section>
-    </div>
+    </main>
   );
 }

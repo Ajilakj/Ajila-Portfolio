@@ -27,7 +27,7 @@ const styles = {
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <>
-    <div style={styles.navBarContainer}>
+    <header style={styles.navBarContainer}>
     <h1>Ajila's Portfolio</h1>
     <ul style={styles.navBar} className="nav nav-tabs">
       <li style={styles.li} className="nav-item">
@@ -68,7 +68,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
-    </div>
+    </header>
     </>
   );
 }

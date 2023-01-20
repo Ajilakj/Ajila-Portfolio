@@ -19,7 +19,7 @@ const handleInputChange = (e) => {
   }
 };
   return (
-    <div id="contact">
+    <main id="contact">
     <h1>Contact Me</h1>
     <form className="form">
         <input
@@ -47,11 +47,11 @@ const handleInputChange = (e) => {
           Submit
         </button>
       </form>
-    <div id="contact-me-info">
+    <section id="contact-me-info">
          <h4>Phone: 551-263-7663</h4>
          <h4>email: <a href="mailto:kjajila@gmail.com">kjajila@gmail.com</a></h4>
-    </div>
-</div>
+    </section>
+</main>
   );
 }
 export default Form;

@@ -146,7 +146,7 @@ export default function Resume() {
     <td>
       A Level 
       Computer Science
-      Department of Electronics and Accreditation of Computer Courses (DOEACC Mar 2003,  Kerala, India)
+      (Department of Electronics and Accreditation of Computer Courses) (DOEACC Mar 2003,  Kerala, India)
     </td>
     <td>
       (VB, C, Foxpro, Computer Graphics, DBMS, OOP, etc)
