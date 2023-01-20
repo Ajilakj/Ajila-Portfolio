@@ -11,7 +11,7 @@ import './style.css'
 export default function Portfolio({ currentPage, handlePageChange }) {
   return (
     <main>
-     <h1>My Works</h1>
+     <h2>My Works</h2>
        <section id="portfolio">
                <div >
                     <fieldset class="cardContainer">

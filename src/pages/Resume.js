@@ -6,8 +6,8 @@ import './style.css';
 export default function Resume() {
   return (
     <div id="resume">
-      <h1>Resume</h1>
-      <h2>Technical Skill</h2>
+      <h2>Resume</h2>
+      <h3>Technical Skill</h3>
       <table>
         <tr>
           <td>

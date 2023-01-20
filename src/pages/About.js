@@ -4,7 +4,7 @@ import './style.css';
 export default function About() {
   return (
     <main id="about">
-      <h1>About Me</h1>
+      <h2>About Me</h2>
       <section id="aboutMe">
         <img src={profile} alt="My profile picture"/>
         <p>
