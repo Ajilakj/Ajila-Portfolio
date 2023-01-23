@@ -11,10 +11,10 @@ export default function Resume() {
       <h3>Summary</h3>
       <ul>
         <li>
-          Experience with full software development life-cycle (SDLC) (design, development and deployment) and agile software methodologies (scrum).  
+          Experience with the entire software development life-cycle (SDLC) (design, development, and deployment) and agile software methodologies (scrum).  
         </li>
         <li>
-          Familiar in developing User Interface (UI) applications and using React , Node, Express, MongoDB,  JavaScript, JQuery, HTML5,  CSS3
+          Familiar with developing User Interface (UI) applications and using React, Node, Express, MongoDB,  JavaScript, JQuery, HTML5, and CSS3
         </li>
         <li>
           Knowledge in using Bootstrap, Bulma and CSS3 media queries for developing Responsive web design to support various screen sizes.  
