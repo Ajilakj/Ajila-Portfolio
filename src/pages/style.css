@@ -1,7 +1,39 @@
-table, th,td{
+table, th, td{
      border:1px solid black;
      padding:10px
 }
+
+
+#root .inner-wrapper{
+
+     margin: 0 auto;
+     max-width:1000px;
+     background: #ccc;
+ }
+
+     #navBarContainer{
+       padding:10px;
+       background: #004B8D;
+       color:beige;
+       display: flex;
+       /* flex-direction:row; */
+       justify-content: space-between;
+       /* flex-wrap: wrap; */
+   }
+     #navBar {
+       display:flex;
+       padding:20px;
+       /* flex-direction:row; */
+       justify-content: flex-end;
+     }
+     .nav-item{
+       list-style:none;
+       padding:20px
+     }
+     a{
+       text-decoration:none;
+       color:beige;
+     }
 
 #resume, #about, #contact, #portfolio {
      margin:10%;
@@ -77,3 +109,29 @@ input{
      flexDirection:row;
      justifyContent: space-between;
    }; */
+
+
+
+
+   footer {
+     background: #004B8D;
+    
+   }
+
+   footer ul {
+
+     display:flex;
+
+     flex-direction:row;
+     justify-content: space-around;
+   }
+
+   footer li{
+      list-style:none;
+      padding:20px;
+      color:beige;
+    }
+    footer li a {
+      text-decoration:none;
+      color:beige;
+    }
