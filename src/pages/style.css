@@ -5,41 +5,40 @@ table, th, td{
 
 
 #root .inner-wrapper{
-
      margin: 0 auto;
      max-width:1000px;
-     background: #ccc;
  }
 
-     #navBarContainer{
-       padding:10px;
-       background: #004B8D;
-       color:beige;
-       display: flex;
-       /* flex-direction:row; */
-       justify-content: space-between;
-       /* flex-wrap: wrap; */
-   }
-     #navBar {
-       display:flex;
-       padding:20px;
-       /* flex-direction:row; */
-       justify-content: flex-end;
-     }
-     .nav-item{
-       list-style:none;
-       padding:20px
-     }
-     a{
-       text-decoration:none;
-       color:beige;
-     }
+#navBarContainer{
+     padding:10px;
+     background: #004B8D;
+     color:beige;
+     display: flex;
+     justify-content: space-between;
+     /* flex-wrap: wrap; */
+}
+
+#navBar {
+     display:flex;
+     padding:20px;
+     justify-content: flex-end;
+}
+
+.nav-item{
+     list-style:none;
+     padding:20px
+}
+
+a{
+     text-decoration:none;
+     color:beige;
+}
 
 #resume, #about, #contact, #portfolio {
      margin:10%;
 }
 
-h1{
+h1, h2, h3{
      text-align: center;
 }
 
@@ -60,31 +59,65 @@ h1{
      font-size:26px;
 }
 
-.cardContainer{
+/* .cardContainer{
      display: flex;
      flex-direction:row;
      flex-wrap: wrap;
      flex-grow: 1;
-}
+} */
 
-.cards{
+/* .cards{
      width:25vw;
      border: 2px dotted maroon;
      box-shadow: 10px 10px gray;
      border-radius: 10px;
      padding:25px;
      margin:25px auto;
-}
-.cards a{
+} */
+.cardContainer {
+     padding:20px 40px 40px 40px;
+     background: rgba(255, 255, 255, 0.04);
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(4px);
+     -webkit-backdrop-filter: blur(4px);
+     border: 1px solid rgba(255, 255, 255, 0.45);
+     margin:20px auto; 
+ }
+
+.cards{
+     margin:25px auto;
+     padding:25px;
+     width:25vw;
+     background: rgba(165, 163, 189, 0);
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(10.3px);
+     -webkit-backdrop-filter: blur(10.3px);
+     border: 1px solid rgba(165, 163, 189, 0.45);
+ }
+
+/* .cards a{
      color:beige;
      text-decoration: none;
      margin: 20px;
      border-radius: 20px;
-}
+} */
+.cards a{
+     /* background:#fff; */
+     color:beige;
+     text-decoration: none;
+     display:inline-block;
+     border-radius: 20px;
+     margin:0 10px 10px 0;
+     filter: drop-shadow(2px 2px 4px #ccc);
+ }
+
 #portfolio img{
-     width:250px;
+     width:25vw;
      height: 250px;
-     padding: 15px;
+     /* padding: 15px; */
+     margin: 0 auto;
 }
 
 input{
