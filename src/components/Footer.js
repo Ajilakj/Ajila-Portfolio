@@ -6,7 +6,7 @@ function Footer() {
         <ul className="inner-wrapper">
           <li>
             <a 
-              href="https://github.com/Ajilakj?tab=repositories" target="_blank" rel="noreferrer"
+              href="https://github.com/Ajilakj" target="_blank" rel="noreferrer"
             >
               GitHub
             </a>

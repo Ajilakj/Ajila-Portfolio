@@ -1,5 +1,4 @@
 import React from 'react';
-import './style.css';
 // import { Document,Page } from 'react-pdf/dist/esm/entry.webpack';
 // import resume from '../../images/Resume-Portfolio (1).pdf'
 
@@ -7,7 +6,36 @@ export default function Resume() {
   return (
     <div id="resume">
       <h2>Resume</h2>
-      <h3>Technical Skill</h3>
+      <h3>Profile</h3>
+        Full stack Web Developer with a Master's degree in Computer science and Bachelor's Degree in Mathematics. Recently earned a certificate in Full Stack Development from Columbia Engineering, New York, and acquired skills in  React, MongoDB, Node, Express, JavaScript, and other web-related technologies 
+      <h3>Summary</h3>
+      <ul>
+        <li>
+          Experience with full software development life-cycle (SDLC) (design, development and deployment) and agile software methodologies (scrum).  
+        </li>
+        <li>
+          Familiar in developing User Interface (UI) applications and using React , Node, Express, MongoDB,  JavaScript, JQuery, HTML5,  CSS3
+        </li>
+        <li>
+          Knowledge in using Bootstrap, Bulma and CSS3 media queries for developing Responsive web design to support various screen sizes.  
+        </li>
+        <li>
+          Experience with analyzing the Document Object Model (DOM) Layout, DOM Functions and JavaScript functions. 
+        </li>
+        <li>
+          Familiar in web Accessibility standard implementation to make websites accessible and inclusive for all audiences.
+        </li>
+        <li>
+          Knowledge in implementing SEO practices to make the websites pages rank high and searchable for various  Search Engines 
+        </li>
+        <li>
+          Familiar in optimizing websites for better performance using tools like Lighthouse, Chrome Developer tool etc.
+        </li>
+        <li>
+          Knowledge in working in AGILE based development environment 
+        </li>
+    </ul>
+    <h3>Technical Skill</h3>
       <table>
         <tr>
           <td>
@@ -90,40 +118,12 @@ export default function Resume() {
           </td>
         </tr>
       </table>
-    <ul>
-      <li>
-        Experience with full software development life-cycle (SDLC) (design, development and deployment) and agile software methodologies (scrum).  
-      </li>
-      <li>
-        Familiar in developing User Interface (UI) applications and using React , Node, Express, MongoDB,  JavaScript, JQuery, HTML5,  CSS3
-      </li>
-      <li>
-        Knowledge in using Bootstrap, Bulma and CSS3 media queries for developing Responsive web design to support various screen sizes.  
-      </li>
-      <li>
-        Experience with analyzing the Document Object Model (DOM) Layout, DOM Functions and JavaScript functions. 
-      </li>
-      <li>
-        Familiar in web Accessibility standard implementation to make websites accessible and inclusive for all audiences.
-      </li>
-      <li>
-        Knowledge in implementing SEO practices to make the websites pages rank high and searchable for various  Search Engines 
-      </li>
-      <li>
-        Familiar in optimizing websites for better performance using tools like Lighthouse, Chrome Developer tool etc.
-      </li>
-      <li>
-        Knowledge in working in AGILE based development environment 
-      </li>
-    </ul>
-
-   <h2>Experience</h2> 
-
+   <h3>Experience</h3> 
   <p>CTC group of institutions / Computer Science Teacher
-  June 2004 - May 2005,  Calicut, Kerala, India
+  June 2004 - May 2005,  Calicut, Kerala, India</p>
+  <p>I was teaching Computer science subjects (C, Graphics, Java, Computer fundamentals) to polytechnic students.
   </p>
-
-<h2>Education</h2>
+<h3>Education</h3>
 <table>
   <tr>
     <th>
@@ -135,48 +135,56 @@ export default function Resume() {
   </tr>
   <tr>
     <td>
-       Masters in Computer Science
+      Columbia Engineering Full stack Web development
     </td>
     <td>
-      Maharshi Dayanand University (2005- 2007,  Rohtak, India)
-      (Software Engineering, Software testing, Artificial intelligence, c++, etc )
+      Columbia Engineering Boot Camps   (Sept 2022- Dec 2022) 
+      React, MongoDB, Express, Node, MySQL, PWA, Handlebars, Sequelize, OOP, API, jQuery, JavaScript, Heroku, Git, Bootstrap, CSS, HTML
     </td>
   </tr>
   <tr>
     <td>
-      A Level 
-      Computer Science
-      (Department of Electronics and Accreditation of Computer Courses) (DOEACC Mar 2003,  Kerala, India)
+       Masters in Computer Science
     </td>
     <td>
-      (VB, C, Foxpro, Computer Graphics, DBMS, OOP, etc)
+      Maharshi Dayanand University (Rohtak, India)
+      Software Engineering, Software testing, Artificial intelligence, c++, etc 
+    </td>
+  </tr>
+  <tr>
+    <td>
+      DOEACC A Level 
+      Computer Science
+    </td>
+    <td>
+      Department of Electronics and Accreditation of Computer Courses  Kerala, India
+      VB, C, Foxpro, Computer Graphics, DBMS, OOP, etc
     </td>
   </tr>
   <tr>
     <td>
       IBM Web Programming    
-      IBM center Calicut, Kerala, India
     </td>
     <td>
-      (HTML, XML, VBscript, JavaScript, ASP)
+      IBM center Calicut, Kerala, India
+      HTML, XML, VBscript, JavaScript, ASP
     </td>
   </tr>
   <tr>
     <td>  
       APGDCA (Advance Post Graduate Diploma in Computer Applications)
-      St. Joseph’s College, Devagiri
-      Mar 2002,  Calicut, Kerala, India
     </td>
     <td>
-      (Java, Oracle, VB, C, Foxpro, Computer Graphics, DBMS, OOP, etc)
+      St. Joseph’s College, Devagiri,  Calicut, Kerala, India
+      Java, Oracle, VB, C, Foxpro, Computer Graphics, DBMS, OOP, etc
     </td>
   </tr>
   <tr>
     <td>
       Bachelor of Science (Mathematics)
-      Providence Women’s College  Mar 2000,  Calicut, India 
     </td>
     <td>
+      Providence Women’s College,  Calicut, India 
       It is a 3 year bachelor degree course in Mathematics
     </td>
   </tr>
