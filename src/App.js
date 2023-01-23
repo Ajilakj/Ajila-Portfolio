@@ -13,10 +13,10 @@ const styles = {
    
 const App = () =>{
 return(
-          <div style={styles.container}>
+          <>
                <PortfolioContainer />
                <Footer/>
-          </div> 
+          </> 
      )
 }
 export default App;
