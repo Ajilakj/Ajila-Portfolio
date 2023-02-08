@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ajila-Portfolio/static/css/main.1d548716.css",
-    "main.js": "/Ajila-Portfolio/static/js/main.2fb8eaf9.js",
+    "main.css": "/Ajila-Portfolio/static/css/main.5f333886.css",
+    "main.js": "/Ajila-Portfolio/static/js/main.cd2d3830.js",
     "static/media/myDailyAlmanac.png": "/Ajila-Portfolio/static/media/myDailyAlmanac.b32777423895004b3d2e.png",
     "static/media/Ajila.JPG": "/Ajila-Portfolio/static/media/Ajila.e3aea0ea2b704788802f.JPG",
     "static/media/virtualescaperoom.png": "/Ajila-Portfolio/static/media/virtualescaperoom.243107e5ff1feb1d34e6.png",
@@ -9,11 +9,11 @@
     "static/media/weatherDashboard.png": "/Ajila-Portfolio/static/media/weatherDashboard.94ba8e12acdf6b400218.png",
     "static/media/jate.png": "/Ajila-Portfolio/static/media/jate.5d3823bdf9ac72aae49c.png",
     "index.html": "/Ajila-Portfolio/index.html",
-    "main.1d548716.css.map": "/Ajila-Portfolio/static/css/main.1d548716.css.map",
-    "main.2fb8eaf9.js.map": "/Ajila-Portfolio/static/js/main.2fb8eaf9.js.map"
+    "main.5f333886.css.map": "/Ajila-Portfolio/static/css/main.5f333886.css.map",
+    "main.cd2d3830.js.map": "/Ajila-Portfolio/static/js/main.cd2d3830.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d548716.css",
-    "static/js/main.2fb8eaf9.js"
+    "static/css/main.5f333886.css",
+    "static/js/main.cd2d3830.js"
   ]
 }
