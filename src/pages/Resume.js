@@ -4,9 +4,10 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div id="resume">
-      <h2>Resume</h2>
-      <h3>Profile</h3>
+    <div id="resume" >
+      <h1>Resume</h1>
+      <div class="inner-wrapper">
+      <h2>Profile</h2>
         Full stack Web Developer with a Master's degree in Computer science and Bachelor's Degree in Mathematics. Recently earned a certificate in Full Stack Development from Columbia Engineering, New York, and acquired skills in  React, MongoDB, Node, Express, JavaScript, and other web-related technologies 
       <h3>Summary</h3>
       <ul>
@@ -191,41 +192,10 @@ export default function Resume() {
 </table>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       {/* <Document style={styles.document} file={resume}>
       <Page pageNumber={1}/>
       </Document> */}
+    </div>
     </div>
   );
 }
