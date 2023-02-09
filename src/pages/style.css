@@ -11,6 +11,10 @@ table, th, td{
      padding:10px
 }
 
+ul {
+     padding:0;
+}
+
 header{
      background: #004B8D;
      background: rgb(100,36,117);
@@ -21,20 +25,20 @@ header{
 
 header .logo-wrapper {
      line-height: 60px;
-     font-size: 30px;
+     font-size: 40px;
      font-weight: bold;
+     text-align: center;
 }
 
 header .inner-wrapper{
      padding:5px;
      /* background: #004B8D; */
      color:beige;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
+    
 }
+
  
-#root .inner-wrapper{
+.inner-wrapper{
      margin: 0 auto;
      max-width:1000px;
     
@@ -43,17 +47,28 @@ header .inner-wrapper{
  main .inner-wrapper {
     
      padding:75px 0;
+     margin:0 4%;
+ }
+
+ main .inner-wrapper img {
+     margin: 0 auto;
+     display: block;
+ }
+
+ @media screen and (min-width: 780px) {
+     main .inner-wrapper {
+          margin:0 auto;
+      }
  }
  
- main .inner-wrapper p {
+ #about-me p {
 
      font-size: 1.3rem;
  }
 
 #navBar {
      display:flex;
-     padding:20px;
-     justify-content: flex-end;
+   
      margin:0;
 }
 
@@ -76,6 +91,21 @@ a{
 }
 
 
+@media screen and (min-width: 780px) {
+     header .inner-wrapper{
+          padding:5px;
+          /* background: #004B8D; */
+          color:beige;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+     }
+
+     #navBar { 
+          padding:20px;
+          justify-content: flex-end;
+     }
+}
 
 main h1 {
 
@@ -90,24 +120,8 @@ h1 {
 }
 
 
-
-/* .cardContainer{
-     display: flex;
-     flex-direction:row;
-     flex-wrap: wrap;
-     flex-grow: 1;
-} */
-
-/* .cards{
-     width:25vw;
-     border: 2px dotted maroon;
-     box-shadow: 10px 10px gray;
-     border-radius: 10px;
-     padding:25px;
-     margin:25px auto;
-} */
 .cardContainer {
-     padding:20px 40px 40px 40px;
+     padding:5px 10px 10px 10px;
      background: rgba(255, 255, 255, 0.04);
      border-radius: 16px;
      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -119,8 +133,8 @@ h1 {
 
 .cards{
      margin:25px auto;
-     padding:25px;
-     width:25vw;
+     padding:15px;
+    
      background: rgba(165, 163, 189, 0);
      border-radius: 16px;
      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -129,20 +143,18 @@ h1 {
      border: 1px solid rgba(165, 163, 189, 0.45);
  }
 
-/* .cards a{
-     color:beige;
-     text-decoration: none;
-     margin: 20px;
-     border-radius: 20px;
-} */
-/* .cards a{
-     color:beige;
-     text-decoration: none;
-     display:inline-block;
-     border-radius: 20px;
-     margin:0 10px 10px 0;
-     filter: drop-shadow(2px 2px 4px #ccc);
- } */
+ @media screen and (min-width: 780px) {
+
+     .cardContainer {
+          padding:20px 40px 40px 40px;
+     }
+
+     .cards{
+          width:40vw;
+          padding:25px;
+     }
+ }
+
  .cards a{
      /* background:#fff; */
      border-radius: 10px;
@@ -158,15 +170,11 @@ h1 {
      margin: 0 auto;
 }
 
-input{
+/* input{
      padding:10px;
      margin:10px
-}
+} */
 
-.git, .app{
-     background-color: blue;
-     padding: 10px;
-}
 
 
    footer {
@@ -196,22 +204,30 @@ input{
       color:beige;
     }
 
-
-    .tow-coloum {
-
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
-
-    }
-
     .tow-coloum > :nth-child(1) {
-          width:30%;
+
+          margin-bottom:30px;
     }
 
-    .tow-coloum > :nth-child(2) {
-          width:50%;
-      
+    @media screen and (min-width: 780px) {
+
+     .tow-coloum {
+
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+     
+         }
+     
+         .tow-coloum > :nth-child(1) {
+               width:30%;
+               margin-bottom:0;
+         }
+     
+         .tow-coloum > :nth-child(2) {
+               width:50%;
+           
+         }
     }
 
     .content {

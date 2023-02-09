@@ -9,8 +9,7 @@ export default function About() {
           <div class="content">
             <h2>Hi, My name is Ajila.</h2>
           <p>
-                I am a Fullstack coding bootcamp gradute from Columbia Engineering.
-              As a fullstack developer I am familiar with the technologies like React, Express, MongoDB, Node, JS, .................. This portfoilio will express some of my works which I am really proud of.
+            I am a Full stack Web Developer with a Master's degree in Computer science and Bachelor's Degree in Mathematics. I recently earned a certificate in Full Stack Development from Columbia Engineering, New York, where I developed skills in React, MongoDB, Node, Express, JavaScript, CSS, HTML and other web-related technologies
           </p>
           </div>
         </section>
