@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Ajila-Portfolio/static/css/main.90205938.css",
-    "main.js": "/Ajila-Portfolio/static/js/main.88e8d84b.js",
+    "main.js": "/Ajila-Portfolio/static/js/main.7a6fb0c6.js",
     "static/media/myDailyAlmanac.png": "/Ajila-Portfolio/static/media/myDailyAlmanac.b32777423895004b3d2e.png",
+    "static/media/jsApplications.png": "/Ajila-Portfolio/static/media/jsApplications.c79a5e66ebf33f2fed34.png",
     "static/media/Ajila.JPG": "/Ajila-Portfolio/static/media/Ajila.e3aea0ea2b704788802f.JPG",
     "static/media/virtualescaperoom.png": "/Ajila-Portfolio/static/media/virtualescaperoom.243107e5ff1feb1d34e6.png",
     "static/media/TeamProfileGenerator.png": "/Ajila-Portfolio/static/media/TeamProfileGenerator.76455866cb9f9b9e07a5.png",
@@ -10,10 +11,10 @@
     "static/media/jate.png": "/Ajila-Portfolio/static/media/jate.5d3823bdf9ac72aae49c.png",
     "index.html": "/Ajila-Portfolio/index.html",
     "main.90205938.css.map": "/Ajila-Portfolio/static/css/main.90205938.css.map",
-    "main.88e8d84b.js.map": "/Ajila-Portfolio/static/js/main.88e8d84b.js.map"
+    "main.7a6fb0c6.js.map": "/Ajila-Portfolio/static/js/main.7a6fb0c6.js.map"
   },
   "entrypoints": [
     "static/css/main.90205938.css",
-    "static/js/main.88e8d84b.js"
+    "static/js/main.7a6fb0c6.js"
   ]
 }
