@@ -4,6 +4,7 @@ import weatherDashboard from '../images/weatherDashboard.png';
 import TeamProfileGenerator from '../images/TeamProfileGenerator.png';
 import jate from '../images/jate.png';
 import virtualescaperoom from '../images/virtualescaperoom.png';
+import jsApplications from '../images/jsApplications.png';
 
 export default function Portfolio({ currentPage, handlePageChange }) {
   return (
@@ -30,11 +31,11 @@ export default function Portfolio({ currentPage, handlePageChange }) {
                          <img src={almanac} alt="an image of contents based on user selection and a drop up menu with dates"/>
                     </div>
                     <div class="cards">
-                         <a href="https://ajilakj.github.io/WeatherDashboard/" target="_blank" className="app link-button" rel="noreferrer">Deployed App</a>
-                         <a  href="https://github.com/Ajilakj/WeatherDashboard" target="_blank" className="app link-button" rel="noreferrer">Github</a>
-                         <h3><span data-descr="Weather Dashboard">Weather Dashboard </span></h3>
-                         <p>Technologies used:<span class="orange">API </span><span class="green">JavaScript jQuery </span><span class="blue">CSS </span> <span class="red">HTML </span></p>
-                         <img src={weatherDashboard} alt="weather dashboard image with city name temp, wind and humidity"/>
+                         <a href="https://ajilakj.github.io/JavaScript-Applications/" target="_blank" className="app link-button" rel="noreferrer">Deployed App</a>
+                         <a  href="https://github.com/Ajilakj/JavaScript-Applications" target="_blank" className="app link-button" rel="noreferrer">Github</a>
+                         <h3><span data-descr="JavaScript Applications">JavaScript Applications </span></h3>
+                         <p>Technologies used:<span class="blue">SASS </span><span class="orange">API </span><span class="green">JavaScript jQuery </span><span class="blue">CSS </span> <span class="red">HTML </span></p>
+                         <img src={jsApplications} alt="JavaScript applications image with password, weather, quiz, rock, paper scissor images"/>
                     </div>
                     </div>
                     <div class="cardContainer">
