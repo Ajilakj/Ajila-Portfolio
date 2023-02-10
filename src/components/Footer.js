@@ -15,7 +15,7 @@ function Footer() {
             </a>
           </li>
           <li>
-              &copy; Ajila K Johnkutty @ 2022
+              &copy; Ajila K Johnkutty @ 2023
           </li>
           <li>
           
