@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/Ajila-Portfolio/static/css/main.90205938.css",
-    "main.js": "/Ajila-Portfolio/static/js/main.5a0c8bc0.js",
+    "main.css": "/Ajila-Portfolio/static/css/main.560aa153.css",
+    "main.js": "/Ajila-Portfolio/static/js/main.a3af87d0.js",
+    "static/media/SportSpot.png": "/Ajila-Portfolio/static/media/SportSpot.631dca1e0ce15676bf07.png",
+    "static/media/Ajila.jpg": "/Ajila-Portfolio/static/media/Ajila.c03f4e2cbc1cbe369404.jpg",
     "static/media/myDailyAlmanac.png": "/Ajila-Portfolio/static/media/myDailyAlmanac.b32777423895004b3d2e.png",
     "static/media/jsApplications.png": "/Ajila-Portfolio/static/media/jsApplications.c79a5e66ebf33f2fed34.png",
-    "static/media/Ajila.JPG": "/Ajila-Portfolio/static/media/Ajila.e3aea0ea2b704788802f.JPG",
     "static/media/virtualescaperoom.png": "/Ajila-Portfolio/static/media/virtualescaperoom.243107e5ff1feb1d34e6.png",
     "static/media/TeamProfileGenerator.png": "/Ajila-Portfolio/static/media/TeamProfileGenerator.76455866cb9f9b9e07a5.png",
-    "static/media/weatherDashboard.png": "/Ajila-Portfolio/static/media/weatherDashboard.94ba8e12acdf6b400218.png",
-    "static/media/jate.png": "/Ajila-Portfolio/static/media/jate.5d3823bdf9ac72aae49c.png",
     "index.html": "/Ajila-Portfolio/index.html",
-    "main.90205938.css.map": "/Ajila-Portfolio/static/css/main.90205938.css.map",
-    "main.5a0c8bc0.js.map": "/Ajila-Portfolio/static/js/main.5a0c8bc0.js.map"
+    "main.560aa153.css.map": "/Ajila-Portfolio/static/css/main.560aa153.css.map",
+    "main.a3af87d0.js.map": "/Ajila-Portfolio/static/js/main.a3af87d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.90205938.css",
-    "static/js/main.5a0c8bc0.js"
+    "static/css/main.560aa153.css",
+    "static/js/main.a3af87d0.js"
   ]
 }
