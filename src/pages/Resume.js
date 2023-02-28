@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <div id="resume" >
       <h1>Resume</h1>
-      <div class="inner-wrapper">
+      <div className="inner-wrapper">
       <h2>Profile</h2>
         Full stack Web Developer with a Master's degree in Computer science and Bachelor's Degree in Mathematics. Recently earned a certificate in Full Stack Development from Columbia Engineering, New York, and acquired skills in  React, MongoDB, Node, Express, JavaScript, and other web-related technologies 
       <h2>Summary</h2>

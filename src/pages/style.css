@@ -115,7 +115,7 @@ main h1 {
      filter: drop-shadow(2px 2px 5px #3a3a3c);     
 }
 
-h1 {
+h1,h3 {
      text-align: center;
 }
 
@@ -133,14 +133,44 @@ h1 {
 
 .cards{
      margin:25px auto;
-     padding:15px;
+     /* padding:15px; */
     
-     background: rgba(165, 163, 189, 0);
+     /* background: rgba(165, 163, 189, 0); */
      border-radius: 16px;
-     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
      backdrop-filter: blur(10.3px);
      -webkit-backdrop-filter: blur(10.3px);
      border: 1px solid rgba(165, 163, 189, 0.45);
+ }
+
+ .row{
+     display: flex;
+ }
+
+ .column{
+     display: flex;
+     flex-direction: column;
+     padding: 10px;
+ }
+
+ .blue{
+     color:blue;
+ }
+ 
+ .green{
+     color:green;
+ }
+ .red{
+     color:red;
+ }
+ .orange{
+     color:orange;
+ }
+ .purple{
+     color:purple;
+ }
+ .yellow{
+     color:yellowgreen;
  }
 
  @media screen and (min-width: 780px) {
@@ -164,9 +194,9 @@ h1 {
  }
 
 #portfolio img{
-     width:25vw;
-     height: 250px;
-     /* padding: 15px; */
+     width:20vw;
+     height: 225px;
+     padding: 15px;
      margin: 0 auto;
 }
 
