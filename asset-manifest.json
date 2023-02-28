@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ajila-Portfolio/static/css/main.560aa153.css",
-    "main.js": "/Ajila-Portfolio/static/js/main.a3af87d0.js",
+    "main.css": "/Ajila-Portfolio/static/css/main.61ed81fa.css",
+    "main.js": "/Ajila-Portfolio/static/js/main.38782f13.js",
     "static/media/SportSpot.png": "/Ajila-Portfolio/static/media/SportSpot.631dca1e0ce15676bf07.png",
     "static/media/Ajila.jpg": "/Ajila-Portfolio/static/media/Ajila.c03f4e2cbc1cbe369404.jpg",
     "static/media/myDailyAlmanac.png": "/Ajila-Portfolio/static/media/myDailyAlmanac.b32777423895004b3d2e.png",
@@ -9,11 +9,11 @@
     "static/media/virtualescaperoom.png": "/Ajila-Portfolio/static/media/virtualescaperoom.243107e5ff1feb1d34e6.png",
     "static/media/TeamProfileGenerator.png": "/Ajila-Portfolio/static/media/TeamProfileGenerator.76455866cb9f9b9e07a5.png",
     "index.html": "/Ajila-Portfolio/index.html",
-    "main.560aa153.css.map": "/Ajila-Portfolio/static/css/main.560aa153.css.map",
-    "main.a3af87d0.js.map": "/Ajila-Portfolio/static/js/main.a3af87d0.js.map"
+    "main.61ed81fa.css.map": "/Ajila-Portfolio/static/css/main.61ed81fa.css.map",
+    "main.38782f13.js.map": "/Ajila-Portfolio/static/js/main.38782f13.js.map"
   },
   "entrypoints": [
-    "static/css/main.560aa153.css",
-    "static/js/main.a3af87d0.js"
+    "static/css/main.61ed81fa.css",
+    "static/js/main.38782f13.js"
   ]
 }
