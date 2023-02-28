@@ -1,8 +1,8 @@
 import React from 'react';
 import almanac from '../images/myDailyAlmanac.png';
-import weatherDashboard from '../images/weatherDashboard.png';
 import TeamProfileGenerator from '../images/TeamProfileGenerator.png';
-import jate from '../images/jate.png';
+// import jate from '../images/jate.png';
+import SportSpot from '../images/SportSpot.png';
 import virtualescaperoom from '../images/virtualescaperoom.png';
 import jsApplications from '../images/jsApplications.png';
 
@@ -12,13 +12,23 @@ export default function Portfolio({ currentPage, handlePageChange }) {
      <h1>My Works</h1>
        <section id="portfolio" class="inner-wrapper">
           <div class="cardContainer">
-               <h3>FULLSTACK APPLICATIONS</h3>
+               <h3>MERN STACK APPLICATIONS</h3>
                     <div class="cards">
                          <a href="https://virtual-escape-room-mikeyboxx.herokuapp.com/" target="_blank" className="app link-button" rel="noreferrer">Deployed App</a>
                          <a  href=" https://github.com/Ajilakj/virtual-escape-room" target="_blank" className="app link-button" rel="noreferrer">Github</a>
-                         <h3><span data-descr="It is a game app">Virtual Escape Room </span></h3>
+                         <h3><span data-descr="The initial game is a murder mystery where the player can navigate through the rooms in a mansion to find clues and interact with the suspects.">Virtual Escape Room </span></h3>
                          <p>Technologies used:</p><p><span class="orange">React </span><span class="orange">MongoDB </span><span class="orange">Express </span> <span class="blue">JWT </span> <span class="red">Node </span><span class="green">JavaScript </span></p>
                          <img src={virtualescaperoom} alt="an image of the virtual escape room game"/>
+                    </div>
+               </div>
+          <div class="cardContainer">
+               <h3>FULL STACK APPLICATIONS</h3>
+                    <div class="cards">
+                         <a href="https://sport-spot.herokuapp.com/home" target="_blank" className="app link-button" rel="noreferrer">Deployed App</a>
+                         <a  href=" https://github.com/Ajilakj/Sport-spot" target="_blank" className="app link-button" rel="noreferrer">Github</a>
+                         <h3><span data-descr="This is a full stack application where sports enthusiasts in NYC can connect virtually to make plans to connect in real life.">Sport-spot </span></h3>
+                         <p>Technologies used:</p><p><span class="orange">Handlebars </span><span class="orange">Sequelize </span><span class="orange">Express </span> <span class="blue">eslint </span> <span class="red">Node </span><span class="green">JavaScript </span></p>
+                         <img src={SportSpot} alt="an image of the virtual escape room game"/>
                     </div>
                </div>
                <div class="cardContainer">
@@ -47,13 +57,13 @@ export default function Portfolio({ currentPage, handlePageChange }) {
                               <p>Technologies used:</p><p><span class="orange">Express </span> <span class="blue">JSON </span> <span class="red">Node </span><span class="green">JavaScript </span></p>
                                    <img src={NoteTaker} alt="An image of note taker app with added items on the left side and selected item on the right"/>
                          </div> */}
-                          <div class="cards">
+                          {/* <div class="cards">
                                    <a href="https://frozen-scrubland-82058.herokuapp.com/" target="_blank" className="app link-button" rel="noreferrer">Deployed App</a>
                                    <a  href="https://github.com/Ajilakj/JATE-PWA" target="_blank" className="app link-button" rel="noreferrer">Github</a>
                                    <h3><span data-descr="It is a text editor">JATE </span></h3>
                                    <p>Technologies used:</p><p><span class="orange">MongoDB </span><span class="orange">Express </span> <span class="blue">JSON </span> <span class="red">Node </span><span class="green">JavaScript </span></p>
                                    <img src={jate} alt="an image of the text editor"/>
-                              </div>
+                         </div> */}
                          <div class="cards">
                               <a href="https://drive.google.com/file/d/1fkdbNH3y3JD7HKvWkfk7MPmFh8GI31go/view" target="_blank" className="app link-button"rel="noreferrer">Deployed App</a>
                               <a  href="https://github.com/Ajilakj/TeamProfileGenerator" target="_blank"className="app link-button" rel="noreferrer">Github</a>

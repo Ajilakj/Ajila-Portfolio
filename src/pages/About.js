@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../images/Ajila.JPG'
+import profile from '../images/Ajila.jpg'
 export default function About() {
   return (
     <section >
@@ -9,7 +9,7 @@ export default function About() {
           <div class="content">
             <h2>Hi, My name is Ajila.</h2>
           <p>
-            I am a Full stack Web Developer with a Master's degree in Computer science and Bachelor's Degree in Mathematics. I recently earned a certificate in Full Stack Development from Columbia Engineering, New York, where I developed skills in React, MongoDB, Node, Express, JavaScript, CSS, HTML and other web-related technologies
+            I am a Full stack Web Developer with a Master's degree in Computer science and Bachelor's Degree in Mathematics. I recently earned a certificate in Full Stack Development from Columbia Engineering, New York, where I developed skills in React, MongoDB, Express, Node, MySQL, PWA, Handlebars, Sequelize, OOP, jest, API, jQueryUI, jQuery, JavaScript, Bootstrap, Git, CSS, HTML
           </p>
           </div>
         </section>

@@ -239,6 +239,10 @@ h1 {
      padding-top: 0;
     }
 
+    .content p {
+     line-height: 35px;
+    }
+
     .link-button {
 	box-shadow: 0px 10px 14px -7px #276873;
 
@@ -286,3 +290,8 @@ form textarea {
           filter: drop-shadow(2px 2px 5px #3a3a3c);    
     }
 
+    #about-me img {
+      
+     border-radius: 2%;
+     filter: drop-shadow(2px 2px 5px #3a3a3c);    
+}
